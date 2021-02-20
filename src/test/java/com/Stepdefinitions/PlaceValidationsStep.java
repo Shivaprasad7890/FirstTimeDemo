@@ -81,6 +81,8 @@ public class PlaceValidationsStep extends Utlities{
 		String nameValue= getValueFromResponse(response, "name" );
 		Assert.assertEquals(nameValue, expectedName);
 		System.out.println("name is : "+nameValue);
+		System.out.println("Added place is deleted.");
+		System.out.println("OMG");
 		
 	}
 	
