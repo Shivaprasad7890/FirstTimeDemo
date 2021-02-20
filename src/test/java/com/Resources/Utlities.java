@@ -47,7 +47,17 @@ public class Utlities {
 	}
 	
 
-	
+	public static void gitBasicStatements() {
+		System.out.println("First we split the master branch into Develop branch");
+		System.out.println("Adding this statement from develop branch");
+		System.out.println("Will push this code to Develop branch");
+	}
+	public static void gitBasicStatementsTwo() {
+		System.out.println("Remember if you are creating new branch and switching to that branch then you need to use 'git checkout -b develop' command");
+		System.out.println("And if you want another person to pull the code from this newly created branch, first he need to go to his project path"
+				+ "use git pull origin develop to pull the code and type 'git checkout branch' so that he can switch to develop branch");
+		System.out.println("Then do your code and push it using 'git push origin develop'");
+	}
 	
 	
 
