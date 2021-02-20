@@ -47,7 +47,11 @@ public class Utlities {
 	}
 	
 
-	
+	public static void gitBasicStatements() {
+		System.out.println("First we split the master branch into Develop branch");
+		System.out.println("Adding this statement from develop branch");
+		System.out.println("Will push this code to Develop branch");
+	}
 	
 	
 
