@@ -81,15 +81,17 @@ public class PlaceValidationsStep extends Utlities{
 		String nameValue= getValueFromResponse(response, "name" );
 		Assert.assertEquals(nameValue, expectedName);
 		System.out.println("name is : "+nameValue);
-		System.out.println("Added place is deleted.");
-		System.out.println("OMG");
+		// Lets not add these 2 lines here. Moving these 2 next methods
+		//System.out.println("Added place is deleted.");
+		//System.out.println("OMG");
 		
 	}
 	
 	@Given("user has Delete place payload")
 	public void user_has_delete_place_payload() throws IOException {
 	    requestSpec  =given().spec(commonRequestSpecification()).body(testdata.deletePlacePayload(place_id));
-	   
+	    System.out.println("Added place is deleted.");
+		System.out.println("OMG");
 	}
 
 
